@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登入頁面</title>
+
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        .title_picture {
+            width: 30%;
+            height: 200px;
+            display: block;
+            margin: auto;
+        }
+
+        .loginform {
+            width: 30%;
+            height: 300px;
+            margin: auto;
+            background-color: rgb(224, 227, 227);
+
+        }
+
+        #formsubmit {
+            width: 80%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 14px 20px;
+            margin: 5% 8px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+
+        input[type=text] {
+            width: 80%;
+            padding: 12px 20px;
+            margin: 8px 8px;
+            display: inline-block;
+            border: 1px solid rgb(182, 182, 182);
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        label{
+            font-size: 24px;
+            margin: 8px 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <p><img src="幣安首頁.png" class="title_picture"></p>
+
+    <div class="loginform">
+        <form>
+            <label for="fname">account:</label>
+            <br>
+            <input type="text" id="fname" name="fname">
+            <br>
+            <label for="lname">passwd:</label>
+            <br>
+            <input type="text" id="lname" name="lname">
+            <br>
+            <input type="button" value="登入" id="formsubmit">
+        </form>
+    </div>
+
+
+</body>
+
+</html>
